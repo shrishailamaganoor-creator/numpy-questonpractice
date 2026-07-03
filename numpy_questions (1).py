@@ -1,3 +1,4 @@
+#20 basic level questions i practiced whilee learning numpy
 import numpy as np
 print("="*62)
 print( """#practice questions""" )
