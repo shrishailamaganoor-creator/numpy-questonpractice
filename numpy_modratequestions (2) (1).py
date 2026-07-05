@@ -1,3 +1,4 @@
+#20 moderate level questions on numpy
 import numpy as np
 #Explain broadcasting with an example of adding a (3,3) array and a (3,) array.
 a=np.zeros((3,3))
