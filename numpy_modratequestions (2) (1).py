@@ -49,10 +49,10 @@ print(a.T)
 print(a[:,np.newaxis])
 
 #How do you handle NaN values (detect with isnan, replace with nanmean)?
-#a=np.array([[1,2,3],
-#                    [4,None,6],
-#                    [7,8,9]])
-#print(np.isnan(a),np.replace(a,np.isnan))
+a = np.array([[1,2,3],
+         [1,None,None],
+         [None,None,5]])
+print(np.isnan(a),np.where(np.isnan,0,a))
 #How do you compute cumulative sum and cumulative product?
 print(np.cumsum(a))
 print(np.prod(a))
